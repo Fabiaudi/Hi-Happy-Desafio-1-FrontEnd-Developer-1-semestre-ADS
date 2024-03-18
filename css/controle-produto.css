@@ -1,0 +1,46 @@
+
+.modal-dialog {
+    max-width: 780px;
+}
+
+body {
+    background-color: #f1ededbd;
+}
+figure {
+    position: relative;
+  }
+  figure:before,
+  figure:after {
+    content: '';
+    height: 60%;
+    width: 60%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  img {
+    width: 15%;
+    height: 15%;
+    margin-bottom: -30px;
+    padding: 0;
+}
+.btn-outline-primary{
+    background-color: var(--primary-color);
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--secundary-color);
+}
+#titulo {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -100px;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 4px rgb(125, 124, 124);
+    font-weight: 500;
+}
+#btn-adicionar, 
+#btn-salvar {
+    background-color: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+}
