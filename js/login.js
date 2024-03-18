@@ -27,6 +27,8 @@ function authentication(email, senha) {
                 alert(response.mensagem);
                 return;
             }
+            salvarToken(response.token);
+            
             window.open('controle-produto.html', '_self');
         })
         .catch(erro => { console.log(erro) });
